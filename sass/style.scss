@@ -1,0 +1,14 @@
+@import "./base/reset";
+header {
+    display: flex;
+    position: relative;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
+  }
+  
+  .logo {
+    text-align: center;
+    padding: 14px 0 13px;
+  }
+  .logo img {
+    width: 53%;
+  }
