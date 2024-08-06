@@ -7,6 +7,22 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-family: "roboto 700", sans-serif;
+}
+
+h2 {
+  font-family: "roboto 300", sans-serif;
+}
+
+h3 {
+  font-family: "shrikland", sans-serif;
+}
+
+p {
+  font-family: "roboto 500", sans-serif;
+}
+
 header {
   display: flex;
   position: relative;
