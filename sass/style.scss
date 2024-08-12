@@ -1,9 +1,10 @@
-@import "./base/reset";
-@import "./base/typographie";
-@import "./layout/header";
-@import "./layout/location";
-@import "./layout/reservation";
-@import "./buttons/explorebutton";
+@use "./base/reset";
+@use "./base/typographie";
+@use "./layout/header";
+@use "./layout/location";
+@use "./layout/reservation";
+@use "./buttons/explorebutton";
+@use "./layout/working";
 
 
 

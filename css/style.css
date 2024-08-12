@@ -82,9 +82,66 @@ header img {
   height: 50px;
   font-family: "roboto";
   font-weight: 500;
+  font-size: 16px;
   color: white;
   border-radius: 25px;
   background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
   border: none;
+}
+
+.working {
+  padding: 0 20px;
+  background: white;
+  counter-reset: my-sec-counter;
+}
+.working ol {
+  padding-left: 20px;
+  background: white;
+  padding-bottom: 68px;
+}
+
+.working li {
+  height: 72px;
+  padding: 28px 0;
+  flex-grow: 1;
+  background: #f6f6f6;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 16px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.working li::before {
+  content: counter(my-sec-counter);
+  counter-increment: my-sec-counter;
+  color: white;
+  background: #9356dc;
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 14px;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  left: -0.6rem;
+  margin-right: 22px;
+}
+
+.working i.fa-solid {
+  margin-right: 27px;
+  background: #f6f6f6;
+  color: #7e7e7e;
+}
+
+.working h1 {
+  background: white;
+  padding: 48px 0 26px;
 }
