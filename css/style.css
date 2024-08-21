@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  background: #F6F6F6;
   white-space: nowrap;
   box-sizing: border-box;
 }
@@ -141,7 +140,90 @@ header img {
   color: #7e7e7e;
 }
 
+.working i.fa-solid.fa-store {
+  color: #9356DC;
+}
+
 .working h1 {
   background: white;
   padding: 48px 0 26px;
+}
+
+.new {
+  position: absolute;
+  margin-top: 13px;
+  right: 30px;
+  padding: 7px 9px 6px 9px;
+  background-color: #99e2d0;
+  color: #008766;
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
+  border-radius: 2px;
+}
+
+.restaurants {
+  padding: 54px 18px 0 18px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  gap: 18px;
+}
+
+.cards .card {
+  height: 251px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.cards .card .img-container {
+  height: 174px;
+}
+.cards .card .img-container img {
+  position: relative;
+  top: -57px;
+  left: -3px;
+  height: 231px;
+  object-fit: cover;
+  width: 100%;
+}
+.cards .card .card-text {
+  background-color: white;
+  height: 77px;
+  padding-top: 16px;
+  padding-left: 16px;
+  position: relative;
+}
+.cards .card .card-text h1 {
+  font-size: 18px;
+}
+.cards .card .card-text h2 {
+  font-size: 17px;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-text i {
+  position: absolute;
+  right: 25px;
+  top: 23px;
+  font-size: 22px;
+}
+
+.card-text i.fa-solid {
+  color: transparent;
+  background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+}
+.card-text i.fa-solid:hover {
+  opacity: 1;
 }
