@@ -204,7 +204,7 @@ header img {
   font-size: 22px;
 }
 
-.card-text i.fa-solid {
+i.fa-solid {
   color: transparent;
   background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   -webkit-background-clip: text;
@@ -212,7 +212,7 @@ header img {
   opacity: 0;
   transition: all 200ms ease-in-out;
 }
-.card-text i.fa-solid:hover {
+i.fa-solid:hover {
   opacity: 1;
 }
 
