@@ -197,14 +197,7 @@ header img {
   color: black;
 }
 
-.card-text i {
-  position: absolute;
-  right: 25px;
-  top: 23px;
-  font-size: 22px;
-}
-
-i.fa-solid {
+.card-text i.fa-solid {
   color: transparent;
   background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   -webkit-background-clip: text;
@@ -212,9 +205,19 @@ i.fa-solid {
   opacity: 0;
   transition: all 200ms ease-in-out;
 }
-i.fa-solid:hover {
+
+.card-text i.fa-solid:hover {
   opacity: 1;
 }
+
+.card-text i {
+  position: absolute;
+  right: 25px;
+  top: 23px;
+  font-size: 22px;
+}
+
+
 
 .new {
   position: absolute;
