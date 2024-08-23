@@ -23,6 +23,11 @@
     list-style-type: none;
     display: flex;
     align-items: center;
+    .fa-solid {
+      margin-right: 27px;
+      background:#f6f6f6;
+      color:#7e7e7e;
+  }
     &::before {
      content: counter(my-sec-counter);
      counter-increment: my-sec-counter;
@@ -41,12 +46,7 @@
      left: -0.6rem;
      margin-right: 22px;
     }
-    i.fa-solid {
-      margin-right: 27px;
-      background:#f6f6f6;
-      color:#7e7e7e;
-      
-    }
+    
     i.fa-solid.fa-store{
      color: #9356DC;
   

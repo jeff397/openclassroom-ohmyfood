@@ -56,7 +56,7 @@ header img {
   background-color: #EAEAEA;
 }
 
-.fa-solid {
+.fa-solid-fa-location-dot {
   background-color: #EAEAEA;
 }
 
@@ -121,6 +121,11 @@ header img {
   display: flex;
   align-items: center;
 }
+.working li .fa-solid {
+  margin-right: 27px;
+  background: #f6f6f6;
+  color: #7e7e7e;
+}
 .working li::before {
   content: counter(my-sec-counter);
   counter-increment: my-sec-counter;
@@ -138,11 +143,6 @@ header img {
   position: relative;
   left: -0.6rem;
   margin-right: 22px;
-}
-.working li i.fa-solid {
-  margin-right: 27px;
-  background: #f6f6f6;
-  color: #7e7e7e;
 }
 .working li i.fa-solid.fa-store {
   color: #9356DC;
@@ -197,19 +197,6 @@ header img {
   color: black;
 }
 
-.card-text i.fa-solid {
-  color: transparent;
-  background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  opacity: 0;
-  transition: all 200ms ease-in-out;
-}
-
-.card-text i.fa-solid:hover {
-  opacity: 1;
-}
-
 .card-text i {
   position: absolute;
   right: 25px;
@@ -217,7 +204,17 @@ header img {
   font-size: 22px;
 }
 
-
+i.fa-solid.fa-heart {
+  color: transparent;
+  background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+}
+i.fa-solid.fa-heart:hover {
+  opacity: 1;
+}
 
 .new {
   position: absolute;
