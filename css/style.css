@@ -352,13 +352,14 @@ i.fa-solid.fa-arrow-left {
   background: white;
   border-radius: 25px;
   display: flex;
+  overflow: hidden;
 }
 .menu .menu-card .menu-info .menu-text {
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 5px;
-  padding: 13px 0 13px 15px;
+  padding: 13px 5px 13px 15px;
   text-overflow: ellipsis;
   overflow: hidden;
 }
@@ -382,16 +383,18 @@ i.fa-solid.fa-arrow-left {
 
 .button-check {
   display: flex;
-  justify-content: center;
   align-items: center;
+  margin-right: -16px;
+  width: 16px;
 }
 
-.button-check:hover {
+.menu-info:hover .button-check {
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #99E2D0;
-  width: 100%;
+  margin-right: 0;
   border-radius: 0 15px 15px 0;
 }
 
