@@ -1,21 +1,43 @@
-.card-text i {
-    position: absolute;
+@mixin heart-animation{
+  color: transparent;
+  background-image: linear-gradient(
+    193.33deg,
+    #9356dc -11.44%,
+    #ff79da 123.93%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.fa-heart{
+  position: absolute;
+  font-size: 22px;
+
+}
+
+.menu-name {
+  .fa-heart {
+    right: 41px;
+    top: 40px;
+  }
+
+  .fa-solid {
+    @include heart-animation;
+  }
+}
+
+.card-text {
+  .fa-heart{
     right: 25px;
-    top: 23px;
-    font-size: 22px;
+    top: 23px;  
   }
-  
-   i.fa-solid.fa-heart{
-    color: transparent;
-    background-image: linear-gradient(
-      193.33deg,
-      #9356dc -11.44%,
-      #ff79da 123.93%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    opacity: 0;
-    transition: all 200ms ease-in-out;
-    &:hover {
-      opacity: 1;
-    }
+
+  .fa-solid {
+    @include heart-animation;
   }
+}
