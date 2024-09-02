@@ -1,0 +1,23 @@
+.button-check {
+    display: flex;
+    align-items: center;
+    margin-right: -16px;
+    width: 16px;
+}
+
+.menu-info:hover .button-check {
+    width: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99E2D0;
+    margin-right: 0;
+    transition: all 1s ease-out;
+
+    border-radius: 0 15px 15px 0;
+}
+
+.fa-circle-check {
+    color: white;
+    font-size: 20px;
+}
