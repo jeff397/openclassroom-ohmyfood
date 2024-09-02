@@ -309,10 +309,11 @@ i.fa-solid.fa-arrow-left {
   object-fit: cover;
 }
 
-.menu-container {
-  display: flex;
-  flex-direction: column;
-  margin: 0 13px;
+.card-title {
+  font-family: "shrikhand", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  padding: 32px 0 40px 17px;
 }
 
 .menu {
@@ -323,40 +324,39 @@ i.fa-solid.fa-arrow-left {
   margin-top: -32px;
   border-radius: 15px;
 }
-.menu .menu-name {
+.menu-name {
   display: flex;
   align-items: center;
   position: relative;
 }
-.menu .menu-name .card-title {
-  font-family: "shrikhand", sans-serif;
-  font-weight: 400;
-  font-size: 28px;
-  padding: 32px 0 40px 17px;
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 13px;
 }
-.menu .menu-title {
+.menu-title {
   width: 40px;
   margin: 0 13px 12px;
   font-size: 16px;
   border-bottom: 3px solid #f3f3f3;
 }
-.menu .menu-title:hover {
+.menu-title:hover {
   border-bottom: 3px solid #99E2D0;
   width: 40px;
 }
-.menu .menu-card {
+.menu-card {
   display: grid;
   margin-bottom: 40px;
   gap: 12px;
 }
-.menu .menu-card .menu-info {
+.menu-info {
   background: white;
   border-radius: 25px;
   display: flex;
   overflow: hidden;
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1019607843);
 }
-.menu .menu-card .menu-info .menu-text {
+.menu-text {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -365,17 +365,19 @@ i.fa-solid.fa-arrow-left {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-.menu .menu-card p {
-  font-size: 18px;
-}
-.menu .menu-card .menu-subtitle {
-  font-family: "roboto", sans-serif;
-  font-weight: 300;
-  font-size: 15px;
+.menu-text p {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.menu .menu-card .menu-price {
+.menu-plate {
+  font-size: 18px;
+}
+.menu-subtitle {
+  font-family: "roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+.menu-price {
   display: flex;
   justify-content: flex-end;
   padding: 13px 13px 13px 5px;
@@ -406,9 +408,4 @@ i.fa-solid.fa-arrow-left {
 .fa-circle-check {
   color: white;
   font-size: 20px;
-}
-
-.menu-text p {
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
