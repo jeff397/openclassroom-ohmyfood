@@ -28,6 +28,145 @@ p {
   font-weight: 500;
 }
 
+.button-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -86px;
+  background-color: #99E2D0;
+  transition: all 1s ease-out;
+  width: 86px;
+  border-radius: 0 15px 15px 0;
+}
+
+.menu-info:hover .button-check {
+  margin-right: 0;
+}
+
+.fa-circle-check {
+  color: white;
+  font-size: 20px;
+}
+
+.fa-heart {
+  position: absolute;
+  font-size: 22px;
+}
+
+.menu-name .fa-heart {
+  right: 41px;
+  top: 40px;
+}
+.menu-name .fa-solid {
+  color: transparent;
+  background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+}
+.menu-name .fa-solid:hover {
+  opacity: 1;
+}
+
+.card-text .fa-heart {
+  right: 25px;
+  top: 23px;
+}
+.card-text .fa-solid {
+  color: transparent;
+  background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+}
+.card-text .fa-solid:hover {
+  opacity: 1;
+}
+
+button {
+  width: 58%;
+  height: 50px;
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  border-radius: 25px;
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
+  border: none;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3490196078);
+}
+
+.menu button {
+  width: 186px;
+}
+
+.menu button {
+  margin: auto;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.reservation button {
+  margin-top: 27px;
+  margin-bottom: 57px;
+}
+
+.new {
+  position: absolute;
+  margin-top: 13px;
+  right: 30px;
+  padding: 7px 9px 6px 9px;
+  background-color: #99e2d0;
+  color: #008766;
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
+  border-radius: 2px;
+}
+
+footer {
+  width: 100%;
+  background-color: #353535;
+  padding: 22px 0 22px 25px;
+}
+footer .footer_logo {
+  padding-bottom: 16px;
+}
+footer .footer_logo h3 {
+  color: white;
+  font-size: 18px;
+}
+
+.footer-list ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.footer-list ul a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+}
+.footer-list ul i {
+  background-color: #353535;
+  width: 11px;
+  margin-right: 22px;
+}
+.footer-list ul .noicons p {
+  font-family: "roboto";
+  font-weight: 400;
+}
+
 header {
   display: flex;
   position: relative;
@@ -62,53 +201,21 @@ header img {
 
 .reservation {
   background-color: #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.menureservation {
+.menu-reservation {
   text-align: center;
   line-height: 28px;
   font-size: 24px;
   padding: 39px 0 18px;
 }
 
-.discoverrestaurants {
+.discover-restaurants {
   text-align: center;
   font-size: 18px;
-}
-
-.explorebutton {
-  display: flex;
-  justify-content: center;
-  padding: 27px 0 57px;
-}
-
-.explore {
-  width: 58%;
-  height: 50px;
-  font-family: "roboto";
-  font-weight: 500;
-  font-size: 16px;
-  color: white;
-  border-radius: 25px;
-  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
-  border: none;
-  transition-duration: 0.3s;
-}
-
-.explore:hover {
-  background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
-  background-color: white;
-  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3490196078);
-}
-
-.menu .explore {
-  width: 186px;
-}
-
-.menu .explorebutton {
-  padding: 0;
-  margin-bottom: 40px;
 }
 
 .working {
@@ -211,91 +318,6 @@ header img {
 .card a {
   text-decoration: none;
   color: black;
-}
-
-.fa-heart {
-  position: absolute;
-  font-size: 22px;
-}
-
-.menu-name .fa-heart {
-  right: 41px;
-  top: 40px;
-}
-.menu-name .fa-solid {
-  color: transparent;
-  background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  opacity: 0;
-  transition: all 200ms ease-in-out;
-}
-.menu-name .fa-solid:hover {
-  opacity: 1;
-}
-
-.card-text .fa-heart {
-  right: 25px;
-  top: 23px;
-}
-.card-text .fa-solid {
-  color: transparent;
-  background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  opacity: 0;
-  transition: all 200ms ease-in-out;
-}
-.card-text .fa-solid:hover {
-  opacity: 1;
-}
-
-.new {
-  position: absolute;
-  margin-top: 13px;
-  right: 30px;
-  padding: 7px 9px 6px 9px;
-  background-color: #99e2d0;
-  color: #008766;
-  font-family: "roboto";
-  font-weight: 500;
-  font-size: 14px;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
-  border-radius: 2px;
-}
-
-footer {
-  width: 100%;
-  background-color: #353535;
-  padding: 22px 0 22px 25px;
-}
-footer .footer_logo {
-  padding-bottom: 16px;
-}
-footer .footer_logo h3 {
-  color: white;
-  font-size: 18px;
-}
-
-.footer-list ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-}
-.footer-list ul a {
-  color: white;
-  text-decoration: none;
-  display: flex;
-}
-.footer-list ul i {
-  background-color: #353535;
-  width: 11px;
-  margin-right: 22px;
-}
-.footer-list ul .noicons p {
-  font-family: "roboto";
-  font-weight: 400;
 }
 
 header {
@@ -402,24 +424,4 @@ i.fa-solid.fa-arrow-left {
   font-family: "roboto";
   font-weight: 700;
   font-size: 15px;
-}
-
-.button-check {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: -86px;
-  background-color: #99E2D0;
-  transition: all 1s ease-out;
-  width: 86px;
-  border-radius: 0 15px 15px 0;
-}
-
-.menu-info:hover .button-check {
-  margin-right: 0;
-}
-
-.fa-circle-check {
-  color: white;
-  font-size: 20px;
 }

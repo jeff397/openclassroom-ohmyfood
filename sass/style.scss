@@ -1,17 +1,17 @@
 @use "./base/reset";
 @use "./base/typographie";
+@use "./buttons/check";
+@use "./buttons/heart";
+@use "./buttons/main";
+@use "./buttons/new";
+@use "./layout/footer";
 @use "./layout/header";
 @use "./layout/location";
 @use "./layout/reservation";
-@use "./buttons/explorebutton";
 @use "./layout/working";
 @use "./layout/restaurants";
-@use "./buttons/heart";
-@use "./buttons/new";
-@use "./layout/footer";
 @use "./menu-la-palette-du-goût/menu-header";
 @use "./menu-la-palette-du-goût/menu-restaurant-la-palette.scss";
-@use "./buttons/check";
 
 
 
