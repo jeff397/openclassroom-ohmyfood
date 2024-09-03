@@ -68,7 +68,7 @@
     &-text {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        flex-grow: 1;
         gap: 5px;
         padding: 13px 5px 13px 15px;
         text-overflow: ellipsis;

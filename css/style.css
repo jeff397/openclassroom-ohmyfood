@@ -37,7 +37,7 @@ header {
   padding: 14px 0 13px;
 }
 header img {
-  width: 53%;
+  width: 12rem;
 }
 
 .logo {
@@ -376,7 +376,7 @@ i.fa-solid.fa-arrow-left {
 .menu-text {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  flex-grow: 1;
   gap: 5px;
   padding: 13px 5px 13px 15px;
   text-overflow: ellipsis;
@@ -407,19 +407,16 @@ i.fa-solid.fa-arrow-left {
 .button-check {
   display: flex;
   align-items: center;
-  margin-right: -16px;
-  width: 16px;
+  justify-content: center;
+  margin-right: -86px;
+  background-color: #99E2D0;
+  transition: all 1s ease-out;
+  width: 86px;
+  border-radius: 0 15px 15px 0;
 }
 
 .menu-info:hover .button-check {
-  width: 86px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #99E2D0;
   margin-right: 0;
-  transition: all 1s ease-out;
-  border-radius: 0 15px 15px 0;
 }
 
 .fa-circle-check {
