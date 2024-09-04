@@ -327,6 +327,12 @@ header {
   padding-left: 17px;
 }
 
+.arrow-back {
+  position: absolute;
+  left: 17px;
+  top: 24px;
+}
+
 i.fa-solid.fa-arrow-left {
   font-size: 1.2rem;
   color: black;
