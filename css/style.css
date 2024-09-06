@@ -368,16 +368,6 @@ i.fa-solid.fa-arrow-left {
   display: flex;
   flex-direction: column;
   margin: 0 13px;
-  animation: slow-menu;
-}
-.menu-container:nth-child(1) {
-  animation-delay: 100ms;
-}
-.menu-container:nth-child(2) {
-  animation-delay: 200ms;
-}
-.menu-container:nth-child(3) {
-  animation-delay: 300ms;
 }
 .menu-title {
   width: 40px;
@@ -400,6 +390,38 @@ i.fa-solid.fa-arrow-left {
   display: flex;
   overflow: hidden;
   box-shadow: 0px 4.01px 15.04px 0px rgba(0, 0, 0, 0.1019607843);
+  animation: slow-menu 3s;
+  animation-fill-mode: both;
+}
+.menu-info:nth-child(1) {
+  animation-delay: 300ms;
+}
+.menu-info:nth-child(2) {
+  animation-delay: 600ms;
+}
+.menu-info:nth-child(3) {
+  animation-delay: 900ms;
+}
+.menu-info:nth-child(4) {
+  animation-delay: 1200ms;
+}
+.menu-info:nth-child(5) {
+  animation-delay: 1500ms;
+}
+.menu-info:nth-child(6) {
+  animation-delay: 1800ms;
+}
+.menu-info:nth-child(7) {
+  animation-delay: 2100ms;
+}
+.menu-info:nth-child(8) {
+  animation-delay: 2400ms;
+}
+.menu-info:nth-child(9) {
+  animation-delay: 2700ms;
+}
+.menu-info:nth-child(10) {
+  animation-delay: 3000ms;
 }
 .menu-text {
   display: flex;
@@ -430,4 +452,15 @@ i.fa-solid.fa-arrow-left {
   font-family: "roboto";
   font-weight: 700;
   font-size: 15px;
+}
+
+@keyframes slow-menu {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(1);
+  }
 }
