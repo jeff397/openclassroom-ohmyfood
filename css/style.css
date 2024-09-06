@@ -498,3 +498,8 @@ i.fa-solid.fa-arrow-left {
     transform: translateY(1);
   }
 }
+@media screen and (min-width: 1024px) {
+  header {
+    background: red;
+  }
+}
