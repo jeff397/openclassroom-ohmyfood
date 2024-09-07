@@ -86,7 +86,7 @@ p {
 }
 
 button {
-  width: 58%;
+  width: 218px;
   height: 50px;
   font-family: "roboto";
   font-weight: 500;
@@ -246,6 +246,7 @@ header img {
 }
 .working li .fa-solid {
   margin-right: 27px;
+  font-size: 18px;
   background: #f6f6f6;
   color: #7e7e7e;
 }
@@ -500,6 +501,39 @@ i.fa-solid.fa-arrow-left {
 }
 @media screen and (min-width: 1024px) {
   header {
-    background: red;
+    padding: 30px 0 31px;
+  }
+  header img {
+    width: 12.5rem;
+  }
+  .menu-reservation {
+    padding: 30px 0 18px;
+  }
+  .menu-reservation br {
+    display: none;
+  }
+  .discover-restaurants br {
+    display: none;
+  }
+  button {
+    width: 218px;
+  }
+  .working {
+    padding: 0;
+  }
+  .working h1 {
+    padding: 50px 0 26px 180px;
+  }
+  .working ol {
+    display: flex;
+    padding: 0 207px 50px 180px;
+    gap: 24px;
+  }
+  .working li {
+    width: 335px;
+    margin: 0;
+  }
+  .restaurants {
+    padding: 56px 180px 30px 180px;
   }
 }

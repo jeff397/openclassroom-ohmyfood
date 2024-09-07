@@ -13,6 +13,7 @@
   }
 
   .working li {
+    
     height: 72px;
     padding: 28px 0;
     flex-grow: 1;
@@ -25,6 +26,7 @@
     align-items: center;
     .fa-solid {
       margin-right: 27px;
+      font-size: 18px;
       background:#f6f6f6;
       color:#7e7e7e;
   }
