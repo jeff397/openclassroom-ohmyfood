@@ -62,6 +62,74 @@
     .restaurants{
         padding: 56px 180px 30px 180px;
     }
+
+    .menu-restaurant{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px 100px;
+
+    }
+
+    footer{
+        padding: 0;
+    }
+
+    .first-footer-list{
+        display: flex;
+        gap: 7px;
+    }
+
+    .second-footer-list{
+        display: flex;
+        padding-left: 22px;
+    }
+    
+    .footer-list ul{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        & .second-footer-list-without-icons p{
+            width: 130px;
+        }
+        & .first-footer-list-with-icons {
+            
+        }
+    }
+    .footer_container{
+        display: flex;
+        flex-direction: row-reverse;        
+        padding: 0;
+    }
+    .footer_logo{
+        flex-direction: row;
+        display: flex;        
+        padding: 0;
+        width: 139px;
+        margin: 57px 25px 30px 16px;
+    }
+
+    .footer-list{
+        display: flex;
+        gap: 7px;
+        
+        margin: 64px 0 30px;
+
+    }
+
+    .card-title{
+        padding: 51px 24px 40px 0;
+    }
+
+    .menu{
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        &-name{
+            justify-content: center;
+        }
+    }
+
+    
     
 }
 

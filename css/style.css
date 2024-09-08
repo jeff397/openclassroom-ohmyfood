@@ -138,10 +138,11 @@ footer {
   background-color: #353535;
   padding: 22px 0 22px 25px;
 }
-footer .footer_logo {
+
+.footer_logo {
   padding-bottom: 16px;
 }
-footer .footer_logo h3 {
+.footer_logo h3 {
   color: white;
   font-size: 18px;
 }
@@ -156,13 +157,13 @@ footer .footer_logo h3 {
   color: white;
   text-decoration: none;
   display: flex;
+  padding-bottom: 7px;
 }
 .footer-list ul i {
   background-color: #353535;
-  width: 11px;
-  margin-right: 22px;
+  margin-right: 11px;
 }
-.footer-list ul .noicons p {
+.footer-list ul .second-footer-list-without-icons p {
   font-family: "roboto";
   font-weight: 400;
 }
@@ -219,6 +220,7 @@ header img {
 }
 
 .working {
+  width: 100%;
   padding: 0 20px;
   background: white;
   counter-reset: my-sec-counter;
@@ -324,6 +326,7 @@ header img {
   flex-direction: column;
   overflow: hidden;
   border-radius: 15px;
+  margin-bottom: 18px;
 }
 .cards .card .img-container {
   height: 174px;
@@ -383,7 +386,7 @@ i.fa-solid.fa-arrow-left {
   font-family: "shrikhand", sans-serif;
   font-weight: 400;
   font-size: 28px;
-  padding: 32px 0 40px 17px;
+  padding: 32px 24px 40px 17px;
 }
 
 .menu {
@@ -535,5 +538,57 @@ i.fa-solid.fa-arrow-left {
   }
   .restaurants {
     padding: 56px 180px 30px 180px;
+  }
+  .menu-restaurant {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 100px;
+  }
+  footer {
+    padding: 0;
+  }
+  .first-footer-list {
+    display: flex;
+    gap: 7px;
+  }
+  .second-footer-list {
+    display: flex;
+    padding-left: 22px;
+  }
+  .footer-list ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+  .footer-list ul .second-footer-list-without-icons p {
+    width: 130px;
+  }
+  .footer_container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+  }
+  .footer_logo {
+    flex-direction: row;
+    display: flex;
+    padding: 0;
+    width: 139px;
+    margin: 57px 25px 30px 16px;
+  }
+  .footer-list {
+    display: flex;
+    gap: 7px;
+    margin: 64px 0 30px;
+  }
+  .card-title {
+    padding: 51px 24px 40px 0;
+  }
+  .menu {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .menu-name {
+    justify-content: center;
   }
 }
