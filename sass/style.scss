@@ -91,9 +91,7 @@
         & .second-footer-list-without-icons p{
             width: 130px;
         }
-        & .first-footer-list-with-icons {
-            
-        }
+        
     }
     .footer_container{
         display: flex;
@@ -116,16 +114,34 @@
 
     }
 
+    .background-image img{
+        height: 383px;
+    }
+
     .card-title{
-        padding: 51px 24px 40px 0;
+        padding: 0;
     }
 
     .menu{
         width: 85%;
         margin-right: auto;
         margin-left: auto;
+        margin-top: -35px;
         &-name{
             justify-content: center;
+            padding: 51px 0 40px;
+            gap: 24px;
+            .fa-heart{
+                position: revert;
+            }
+        }
+        &-container{
+            width: 634px;
+            margin-right: auto;
+            margin-left: auto;            
+        }
+        &-title{
+            margin:0;
         }
     }
 
