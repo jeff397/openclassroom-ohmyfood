@@ -23,6 +23,8 @@
         }
     }
 
+
+
     
 
     .menu-reservation{
@@ -114,6 +116,10 @@
 
     }
 
+    .arrow-back{
+        top:40px;
+    }
+
     .background-image img{
         height: 383px;
     }
@@ -142,6 +148,9 @@
         }
         &-title{
             margin:0;
+        }
+        &-card{
+            max-width: 100%;
         }
     }
 
