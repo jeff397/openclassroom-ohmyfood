@@ -625,6 +625,11 @@ i.fa-solid.fa-arrow-left {
   .card-title {
     padding: 0;
   }
+  .heart {
+    position: relative;
+    left: 55px;
+    bottom: 50px;
+  }
   .menu {
     width: 85%;
     margin-right: auto;
@@ -635,9 +640,6 @@ i.fa-solid.fa-arrow-left {
     justify-content: center;
     padding: 51px 0 40px;
     gap: 24px;
-  }
-  .menu-name .fa-heart {
-    position: revert;
   }
   .menu-container {
     width: 634px;

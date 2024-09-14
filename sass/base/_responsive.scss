@@ -118,6 +118,12 @@
         padding: 0;
     }
 
+    .heart{
+        position: relative;
+        left: 55px;
+        bottom: 50px;
+    }
+
     .menu {
         width: 85%;
         margin-right: auto;
@@ -129,9 +135,7 @@
             padding: 51px 0 40px;
             gap: 24px;
 
-            .fa-heart {
-                position: revert;
-            }
+            
         }
 
         &-container {
