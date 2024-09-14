@@ -40,8 +40,12 @@
     }
 
     .working li {
-        width: 335px;
+       
         margin: 0;
+        & p{
+            white-space: normal;
+            padding-right: 15px;
+        }
     }
 
     .restaurants {
