@@ -117,6 +117,7 @@ button:hover {
 .reservation button {
   margin-top: 27px;
   margin-bottom: 57px;
+  cursor: pointer;
 }
 
 .new {
