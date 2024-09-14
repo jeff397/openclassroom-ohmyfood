@@ -152,7 +152,6 @@ footer {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 7px;
 }
 .footer-list ul a {
   color: white;
@@ -623,6 +622,7 @@ i.fa-solid.fa-arrow-left {
   }
   .arrow-back {
     top: 40px;
+    margin-left: 17px;
   }
   .background-image img {
     height: 383px;
