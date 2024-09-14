@@ -77,11 +77,16 @@
         display: flex;
         flex-direction: row;
         padding: 0;
+        margin-right: 56px;
 
         & .second-footer-list-without-icons p {
             width: 130px;
         }
 
+    }
+
+    .noicons {
+        margin-left: 20px;
     }
 
     .footer_container {
