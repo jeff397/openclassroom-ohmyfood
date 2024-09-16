@@ -260,7 +260,7 @@ header img {
   font-family: "roboto";
   font-weight: 500;
   font-size: 14px;
-  width: 1.5rem;
+  min-width: 1.5rem;
   height: 1.5rem;
   display: flex;
   justify-content: center;
